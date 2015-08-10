@@ -15,7 +15,7 @@ Scenario Outline: Click Non-Navigational links
 
 Examples:
   | link_name                               | relative_url                                                    | page_title                                  	 |
-  | Good Faith Estimates                    | askcfpb/146/what-is-a-good-faith-estimate-what-is-a-gfe.html    | What is a Good Faith Estimate?              	 |
+  | Loan Estimates                          | askcfpb/146/what-is-a-good-faith-estimate-what-is-a-gfe.html    | What is a Good Faith Estimate?              	 |
   | discount points                         | askcfpb/136/what-are-discount-points-or-points.html             | What are discount points or points?         	 |
   | rate lock                               | askcfpb/143/whats-a-lock-in-or-a-rate-lock.html                 | What's a lock-in or a rate lock?            	 |
   | checked your credit report recently     | annualcreditreport.com                                          | Annual Credit Report.com                    	 |
@@ -24,8 +24,8 @@ Examples:
   | kind of loan                            | owning-a-home/loan-options/                                     | Consumer Financial Protection Bureau           |
   | points | http://www.consumerfinance.gov/askcfpb/136/what-are-discount-points-or-points.html | Consumer Financial Protection Bureau |
   | mortgage insurance | http://www.consumerfinance.gov/askcfpb/1953/what-is-mortgage-insurance-and-how-does-it-work.html | Consumer Financial Protection Bureau |
-  | closing costs | http://www.consumerfinance.gov/askcfpb/139/what-are-closing-costs.html | Consumer Financial Protection Bureau |
-  | Good Faith Estimates | http://www.consumerfinance.gov/askcfpb/146/what-is-a-good-faith-estimate-what-is-a-gfe.html | Consumer Financial Protection Bureau |
+  | closing costs | http://www.consumerfinance.gov/askcfpb/1845/what-fees-or-charges-are-paid-closing-and-who-pays-them.html | Consumer Financial Protection Bureau |
+  | Loan Estimates | http://www.consumerfinance.gov/askcfpb/1995/what-is-a-loan-estimate.html | Consumer Financial Protection Bureau |
   | Truth in Lending disclosures | http://www.consumerfinance.gov/askcfpb/180/what-is-a-final-truth-in-lending-disclosure.html | Consumer Financial Protection Bureau |
 
 @rate_checker
