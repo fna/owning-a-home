@@ -11,10 +11,10 @@ Scenario Outline: Test inbound links in the landing page
       And I should see "<page_title>" displayed in the page title
 
 Examples:
-  | link_name      		                    | page_title                      | relative_url                             |
-  | Learn more about loan options         | Loan Options                    | loan-options/                            |
-  | Get the closing checklist		          | checklist_mortgage_closing.pdf  | resources/checklist_mortgage_closing.pdf |
-  | Get the closing forms explainer       | mortgage_closing_forms.pdf      | resources/mortgage_closing_forms.pdf     |
+  | link_name      		            | page_title                      | relative_url                             |
+  | Learn more about loan options | Loan Options                    | loan-options/                            |
+  | Closing checklist		          | checklist_mortgage_closing.pdf  | resources/checklist_mortgage_closing.pdf |
+  | Guide to closing forms        | mortgage_closing_forms.pdf      | resources/mortgage_closing_forms.pdf     |
 
 
 
@@ -26,8 +26,8 @@ Scenario Outline: Test outbound links in the landing page
 
 Examples:
   | link_name                                       | page_title               | relative_url                                               |
-  | Find a HUD-approved housing counselor           | Find a housing counselor | /find-a-housing-counselor/                                 |
-  | Get answers to common questions                 | Mortgages                | /askcfpb/search/?selected_facets=category_exact:mortgages  |
-  | Submit a mortgage complaint                     | Submit a complaint       | /complaint/#mortgage                                       |
+  | Find a HUD-certified housing counselor          | Find a housing counselor | /find-a-housing-counselor/                                 |
+  | Get answers from AskCFPB                        | Mortgages                | /askcfpb/search/?selected_facets=category_exact:mortgages  |
+  | Submit it to the CFPB                           | Submit a complaint       | /complaint/#mortgage                                       |
   | Most are listed in this loan originator database | Consumer Access | http://www.nmlsconsumeraccess.org/ |
   | Learn how CFPB is protecting mortgage borrowers | Mortgages                | /mortgage/ |
